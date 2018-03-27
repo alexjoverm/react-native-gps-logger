@@ -1,24 +1,16 @@
 import React from "react";
 import Home from "./src/Home";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Platform, View } from "react-native";
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <View style={{ flex: 1, backgroundColor: "powderblue" }} />
-        <View style={{ flex: 2, backgroundColor: "skyblue" }} />
-        <View style={{ flex: 3, backgroundColor: "steelblue" }} />
-      </View>
-    );
-  }
-}
+export default () => (
+  <View style={styles.app}>
+    <Home />
+  </View>
+);
 
 const styles = StyleSheet.create({
-  container: {
+  app: {
     flex: 1,
-    backgroundColor: "#fff"
-    // alignItems: "center",
-    // justifyContent: "center"
+    paddingTop: 20
   }
 });
