@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_a956f5e93dcc6d1e06a2353a390df963d20155f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.intentfilter/android-permissions/0.1.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d017be0e8d084dbf49feb46382b972f390fcab74">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.intentfilter-android-permissions-0.1.6_48bd79c6d91ab3ac8a2a3683d63f2dabf20da34e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_248bb26f9acef083c5d66b600fc4f3b34c2157a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/share/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_f76d0ef84b3852cab180ddc116219c0ca51d2960.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_bc6d707b05e42006a9f7ea27648c932ed247d737.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.4_dd4f1066c7c52b47dd4a14e11dae7b102f4fb4ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_6952c619b24f8b28abceb9d2c02e6ff385be385b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_6616cd187adec8f9998e33e6d2f46097dbd9cc6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_e110b598cece5460b4f0a1f70afce213f1a1b3e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_2d815649e5c03bf29e032d031be1576c8a2e2c2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="139535a69a4239db087de9bab0bee568bf8e0b70">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.21_01dc178ba26dc7831f4a280d09551fd37ada72a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_d925e1d1109e593fbb9d206238030e9cabf6ada6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_bb670b6a5433ab96743c8ca1b51b9b812e0879b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.0.4_bc414f30151352c7343ebb309b0c65c0750b6194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.4_d8c1c85b3f0bb691c310be0cc60604cdb26e7670.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_bb01626c228b34b428c111e8c7846bc1334c983a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_f3b97b4f6100f22eb1eea1ea0481a9eba5aa8722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_78fe02c5698fc8edc3cbb5b5e571697143fdd19e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_a4b0a2b3c42801e3d352f4a3161c870db2fdc3fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-mauron85-background-geolocation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5e9590a4578b2efe4620ee7636f3f8fddcb9c917">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/BoatlyMobile-react-native-mauron85-background-geolocation-unspecified_5d5b92a58cf662d8ec440ac9e27a68cc1cdceea5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_2770007b2aa1941feaa4760092b7eb74fe3d7060.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_5aeee5c71ca01cd6e775acff697ef37ce513e761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-classic/1.1.1-6/614c66c9ece69eef48c65a8558de4fd7266d9f69/logback-android-classic-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="614c66c9ece69eef48c65a8558de4fd7266d9f69">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/logback-android-classic-1.1.1-6_433d1da1b9b0b666c1787c1e1a4d8ad6f3814dcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e3b3dee4fadc497e4aac4c5442b659388b8a5390.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_84f96ab7205a1d6e093aae5a52117d4d93a72460.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_7869afdb1681697739aaf5a99be6f50cf37f797e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_46dd2fbf8d199e77aca50fc1df2131922bf58f53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ee2f76955c0efe8d995741cea07150b1e24b4db8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_aaed9c8542a963643eb332278643f3e43c01aa5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-core/1.1.1-6/93117015ae639e6482e4e1ad5f988c3f61d09fe0/logback-android-core-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="93117015ae639e6482e4e1ad5f988c3f61d09fe0">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/logback-android-core-1.1.1-6_7d9a6db846986dff9e25cc42b7cb40100d8495b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/.gradle/caches/modules-2/files-2.1/com.github.tony19/apktool-lib/1.4.4-3/1d0125bf578cb30dd192496db56c2d937495248a/apktool-lib-1.4.4-3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1d0125bf578cb30dd192496db56c2d937495248a">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/apktool-lib-1.4.4-3_1e3edebf7b5a11888a952ce1c0566621ba9aab13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.4_1d69aa0c860a8680c0800f763574f71531232b05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_63d7b3551869ba8b1c4323c6db50426e4e785b06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_75982d5a8e575754ba0cc8ae063bc826632719f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_636b8790cb8ff5ac5df4c3ea67ed79b08fe8e575.jar" />
+    </item>
+
+</items>

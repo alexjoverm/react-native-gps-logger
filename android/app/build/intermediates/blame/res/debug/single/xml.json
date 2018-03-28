@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
+        "source": "/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
+    },
+    {
+        "merged": "/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
+        "source": "/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
+    },
+    {
+        "merged": "/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    }
+]
