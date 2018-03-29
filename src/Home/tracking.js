@@ -4,17 +4,38 @@ export const ACTIVITY_PROVIDER = BackgroundGeolocation.ACTIVITY_PROVIDER;
 export const DISTANCE_FILTER_PROVIDER =
   BackgroundGeolocation.DISTANCE_FILTER_PROVIDER;
 
-const defaultConfig = () => ({
+export const trackingConfigs = {
+  walk: {
+    stationaryRadius: 5,
+    distanceFilter: 1,
+    interval: 2000,
+    desiredAccuracy: 1,
+  },
+  bike: {
+    stationaryRadius: 25,
+    distanceFilter: 20,
+    interval: 5000,
+    desiredAccuracy: 5,
+  },
+  car: {
+    stationaryRadius: 60,
+    distanceFilter: 50,
+    interval: 5000,
+    desiredAccuracy: 200,
+  },
+};
+
+const defaultConfig = {
   // desiredAccuracy: BackgroundGeolocation.MEDIUM_ACCURACY,
   // stationaryRadius: 50,
   debug: true, // false
   distanceFilter: 50, // 500, m
   interval: 5000, // 60000, ms, android only
   locationProvider: DISTANCE_FILTER_PROVIDER,
-  maxLocations: 100000,
+  maxLocations: 10000,
   notificationText: "GPS location is being recorded", // android only
   notificationTitle: "Boatly route", // android only
-  stopOnTerminate: true, // true
+  stopOnTerminate: false, // true
   // saveBatteryOnBackground: false // ios only
   // url: "http://192.168.81.15:3000/location",
   // httpHeaders: {
@@ -25,10 +46,19 @@ const defaultConfig = () => ({
   //   lon: "@longitude",
   //   foo: "bar", // you can also add your own properties
   // },
-});
+};
 
 export default new class {
   config = {};
+
+  configure(config) {
+    this.config = { ...defaultConfig, ...config };
+    BackgroundGeolocation.configure(this.config, () => {
+      BackgroundGeolocation.getConfig(config =>
+        console.log("CCConfig", config),
+      );
+    });
+  }
 
   init(config = {}) {
     const {
@@ -38,9 +68,8 @@ export default new class {
       onStop,
       ...restConfig
     } = config;
-    this.config = { ...defaultConfig, ...restConfig };
 
-    BackgroundGeolocation.configure(this.config);
+    this.configure(restConfig);
 
     BackgroundGeolocation.on("location", location => {
       this._log("[BackgroundGeolocation] Location", location);
@@ -67,6 +96,7 @@ export default new class {
 
     BackgroundGeolocation.on("stationary", location => {
       this._log("[BackgroundGeolocation] Stationary location:", location);
+      onLocation(location);
     });
 
     BackgroundGeolocation.on("error", error => {

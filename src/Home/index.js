@@ -1,19 +1,33 @@
 import React from "react";
-import { StyleSheet, Text, View, Alert, Button } from "react-native";
+import {
+  StyleSheet,
+  AppState,
+  Text,
+  View,
+  Alert,
+  Picker,
+  Button,
+} from "react-native";
 
 import Stats from "./Stats";
 import Record from "./Record";
-import tracking from "./tracking";
+import tracking, { trackingConfigs } from "./tracking";
+import { toKnots, stateFromLocation } from "./utils";
+
+const getDefaultState = () => ({
+  latitude: "--",
+  longitude: "--",
+  distance: "--",
+  accuracy: "--",
+  cog: "--",
+  speed: "--",
+});
 
 export default class App extends React.Component {
   state = {
     trackingRunning: false,
-    latitude: "--",
-    longitude: "--",
-    distance: "--",
-    accuracy: "--",
-    cog: "--",
-    speed: "--",
+    mode: "walk",
+    ...getDefaultState(),
   };
 
   componentDidMount() {
@@ -22,11 +36,21 @@ export default class App extends React.Component {
       onLocation: this.onLocation,
       onStart: this.onStart,
       onStop: this.onStop,
+      ...trackingConfigs[this.state.mode],
     });
 
     tracking.checkStatus(status =>
       this.setState({ trackingRunning: status.isRunning }),
     );
+
+    AppState.addEventListener("change", state => {
+      if (state === "active") {
+        tracking.getValidLocations(locations => {
+          const location = locations.pop();
+          location && this.setState(stateFromLocation(location));
+        });
+      }
+    });
   }
   componentWillUnmount() {
     tracking.destroy();
@@ -35,13 +59,7 @@ export default class App extends React.Component {
   onStart = () => this.setState({ trackingRunning: true });
   onStop = () => this.setState({ trackingRunning: false });
 
-  onLocation = location =>
-    this.setState({
-      latitude: location.latitude.toFixed(4),
-      longitude: location.longitude.toFixed(4),
-      accuracy: location.accuracy.toFixed(2),
-      speed: location.speed.toFixed(2),
-    });
+  onLocation = location => this.setState(stateFromLocation(location));
 
   onUnauthorized = status =>
     Alert.alert(
@@ -92,14 +110,47 @@ export default class App extends React.Component {
         />
 
         {/* Debug */}
-        <Button
-          title="Check number files"
-          onPress={() =>
-            tracking.getValidLocations(locations =>
-              Alert.alert(`Locations: ${locations.length}`),
-            )
-          }
-        />
+        <View style={{ flex: 1, padding: 10, flexDirection: "row" }}>
+          <View style={{ paddingRight: 10 }}>
+            <Button
+              title="See recorded positions"
+              onPress={() =>
+                tracking.getValidLocations(locations =>
+                  Alert.alert(
+                    "Locations",
+                    `Total points: ${locations.length}
+
+                  ${JSON.stringify(
+                    locations.map(location => ({
+                      latitude: location.latitude.toFixed(6) + "°",
+                      longitude: location.longitude.toFixed(6) + "°",
+                      time: new Date(location.time).toLocaleString(),
+                      speed: toKnots(location.speed).toFixed(2) + "kn",
+                      cog: location.bearing.toFixed(2) + "°",
+                    })),
+                    null,
+                    2,
+                  )}`,
+                  ),
+                )
+              }
+            />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text>Mode: </Text>
+            <Picker
+              selectedValue={this.state.mode}
+              onValueChange={mode => {
+                this.setState({ mode });
+                tracking.configure(trackingConfigs[mode]);
+              }}
+            >
+              <Picker.Item label="Walk" value="walk" />
+              <Picker.Item label="Bike" value="bike" />
+              <Picker.Item label="Car" value="car" />
+            </Picker>
+          </View>
+        </View>
       </View>
     );
   }

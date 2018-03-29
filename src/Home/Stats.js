@@ -4,24 +4,24 @@ import Stat from "./Stat";
 
 const Stats = ({ latitude, longitude, accuracy, distance, cog, speed }) => (
   <View style={styles.stats}>
-    <Stat label="Longitude" value={longitude} />
-    <Stat label="Latitude" value={latitude} />
+    <Stat label="Longitude (°)" value={longitude} />
+    <Stat label="Latitude (°)" value={latitude} />
 
     <View style={styles.row}>
-      <Stat label="COG" value={cog} />
-      <Stat label="Speed (m/s)" value={speed} />
+      <Stat label="COG (°)" value={cog} />
+      <Stat label="Speed (kn)" value={speed} />
     </View>
 
     <View style={styles.row}>
-      <Stat label="Accuracy" value={accuracy} />
-      <Stat label="Distance" value={distance} />
+      <Stat label="Accuracy (m)" value={accuracy} />
+      <Stat label="Distance (m)" value={distance} />
     </View>
   </View>
 );
 
 const styles = StyleSheet.create({
   stats: {
-    flex: 1.5,
+    height: 300,
     // backgroundColor: "powderblue"
   },
   row: {
