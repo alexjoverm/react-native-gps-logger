@@ -18,8 +18,10 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "js2xmlparser": "^3.0.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
+    "react-native-fs": "^2.9.11",
     "react-native-mauron85-background-geolocation": "^0.5.0-alpha.14"
   }
 }

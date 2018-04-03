@@ -6,19 +6,19 @@ export const DISTANCE_FILTER_PROVIDER =
 
 export const trackingConfigs = {
   walk: {
-    stationaryRadius: 5,
+    stationaryRadius: 1,
     distanceFilter: 1,
     interval: 2000,
-    desiredAccuracy: 1,
+    desiredAccuracy: 0,
   },
   bike: {
-    stationaryRadius: 25,
+    stationaryRadius: 5,
     distanceFilter: 20,
-    interval: 5000,
-    desiredAccuracy: 5,
+    interval: 3000,
+    desiredAccuracy: 40,
   },
   car: {
-    stationaryRadius: 60,
+    stationaryRadius: 20,
     distanceFilter: 50,
     interval: 5000,
     desiredAccuracy: 200,
@@ -28,11 +28,11 @@ export const trackingConfigs = {
 const defaultConfig = {
   // desiredAccuracy: BackgroundGeolocation.MEDIUM_ACCURACY,
   // stationaryRadius: 50,
-  debug: true, // false
+  debug: false, // false
   distanceFilter: 50, // 500, m
   interval: 5000, // 60000, ms, android only
   locationProvider: DISTANCE_FILTER_PROVIDER,
-  maxLocations: 10000,
+  maxLocations: 100000,
   notificationText: "GPS location is being recorded", // android only
   notificationTitle: "Boatly route", // android only
   stopOnTerminate: false, // true
@@ -53,11 +53,7 @@ export default new class {
 
   configure(config) {
     this.config = { ...defaultConfig, ...config };
-    BackgroundGeolocation.configure(this.config, () => {
-      BackgroundGeolocation.getConfig(config =>
-        console.log("CCConfig", config),
-      );
-    });
+    BackgroundGeolocation.configure(this.config);
   }
 
   init(config = {}) {
@@ -169,8 +165,6 @@ export default new class {
   }
 
   _log(...params) {
-    console.log(this.config.debug);
-    console.log(...params);
     if (this.config.debug) {
       console.log(...params);
     }

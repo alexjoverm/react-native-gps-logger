@@ -27,6 +27,7 @@ MERGED from [com.facebook.react:react-native:0.52.0] /Users/alejandrojovermorale
 		ADDED from /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [BoatlyMobile:react-native-fs:unspecified] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-fs/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [BoatlyMobile:react-native-mauron85-background-geolocation:unspecified] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-mauron85-background-geolocation/unspecified/AndroidManifest.xml:25:5-27:41
 MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.0.4/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:17:5-43
@@ -111,6 +112,10 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/src/main/AndroidManifest.xml:29:7-84
 	android:name
 		ADDED from /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/src/main/AndroidManifest.xml:29:17-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [BoatlyMobile:react-native-fs:unspecified] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-fs/unspecified/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [BoatlyMobile:react-native-fs:unspecified] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-fs/unspecified/AndroidManifest.xml:11:22-78
 uses-permission#android.hardware.location
 ADDED from [BoatlyMobile:react-native-mauron85-background-geolocation:unspecified] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-mauron85-background-geolocation/unspecified/AndroidManifest.xml:29:5-65
 	android:name
@@ -245,8 +250,6 @@ ADDED from [com.intentfilter:android-permissions:0.1.6] /Users/alejandrojovermor
 		ADDED from [com.intentfilter:android-permissions:0.1.6] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.intentfilter/android-permissions/0.1.6/AndroidManifest.xml:15:13-56
 	android:name
 		ADDED from [com.intentfilter:android-permissions:0.1.6] /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.intentfilter/android-permissions/0.1.6/AndroidManifest.xml:13:13-83
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE

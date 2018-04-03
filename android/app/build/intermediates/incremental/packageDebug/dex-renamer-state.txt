@@ -1,4 +1,4 @@
-#Thu Mar 29 11:08:55 CEST 2018
+#Tue Apr 03 19:19:45 CEST 2018
 base.0=/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

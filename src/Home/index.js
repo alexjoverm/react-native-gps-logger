@@ -8,11 +8,16 @@ import {
   Picker,
   Button,
 } from "react-native";
+import RNFS from "react-native-fs";
+import js2xmlparser from "js2xmlparser";
 
 import Stats from "./Stats";
 import Record from "./Record";
 import tracking, { trackingConfigs } from "./tracking";
 import { toKnots, stateFromLocation } from "./utils";
+
+const jsToXml = js2xmlparser.parse;
+const filePath = RNFS.ExternalDirectoryPath + "/route.gpx";
 
 const getDefaultState = () => ({
   latitude: "--",
@@ -113,7 +118,7 @@ export default class App extends React.Component {
         <View style={{ flex: 1, padding: 10, flexDirection: "row" }}>
           <View style={{ paddingRight: 10 }}>
             <Button
-              title="See recorded positions"
+              title="See"
               onPress={() =>
                 tracking.getValidLocations(locations =>
                   Alert.alert(
@@ -133,6 +138,53 @@ export default class App extends React.Component {
                   )}`,
                   ),
                 )
+              }
+            />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Button
+              title="Save"
+              onPress={
+                () =>
+                  tracking.getValidLocations(locations => {
+                    const trkpt = locations.map(loc => ({
+                      "@": {
+                        lat: loc.latitude,
+                        lon: loc.longitude,
+                      },
+                      time: new Date(loc.time).toISOString(),
+                    }));
+
+                    const locationsJson = {
+                      "@": {
+                        version: "1.0",
+                      },
+                      trk: {
+                        trkseg: {
+                          trkpt,
+                        },
+                      },
+                    };
+
+                    const xml = jsToXml("gpx", locationsJson, {});
+                    console.log(xml);
+                    debugger;
+
+                    RNFS.writeFile(filePath, xml, "utf8")
+                      .then(res => {
+                        console.log(res);
+                        Alert.alert("Saved", `Saved into ${filePath}`);
+                      })
+                      .catch(err => Alert.alert("Error", err));
+                  })
+
+                // RNFS.readDir(filePath).then(res => {
+                //   console.log(res);
+                //   Alert.alert(
+                //     "Directory",
+                //     res.map(item => ``)
+                //   );
+                // })
               }
             />
           </View>

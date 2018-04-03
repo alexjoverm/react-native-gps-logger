@@ -111,6 +111,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/BoatlyMobile/react-native-fs/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2edffc340a2ec2dce01351bc5b41776d2972059d">
+        <dex dex="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/pre-dexed/debug/BoatlyMobile-react-native-fs-unspecified_91a4d2dbef857aa7828f5b38a3e0fedd072f269d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/alejandrojovermorales/Downloads/WebDev/boatly-mobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"

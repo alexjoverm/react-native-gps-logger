@@ -1,4 +1,6 @@
 rootProject.name = 'BoatlyMobile'
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
 include ':react-native-mauron85-background-geolocation'
 project(':react-native-mauron85-background-geolocation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mauron85-background-geolocation/android/lib')
 
